@@ -1,50 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tu Auto Ya</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<header>
-  <h2>Tu Auto Ya</h2>
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="#marcas">Marcas</a>
-    <a href="https://wa.me/5491136582755" target="_blank">Contacto</a>
-  </nav>
-</header>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">TuAutoYa</div>
+      <nav>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#opciones">Opciones</a>
+        <a href="#contacto" class="btn-outline">Contacto</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="hero">
-  <h1>Tu próximo auto, sin vueltas</h1>
-  <p>Asesoramiento personalizado · Financiación · Entrega rápida</p>
-  <a class="btn" href="https://wa.me/5491136582755" target="_blank">
-    Consultar por WhatsApp
-  </a>
-</section>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Tu próximo auto,<br>más cerca de lo que imaginás</h1>
+        <p>
+          Te asesoramos de forma clara y personalizada para que accedas a tu auto
+          sin vueltas ni letra chica.
+        </p>
 
-<div class="container">
-  <h2>¿Por qué elegirnos?</h2>
-  <div class="grid">
-    <div class="card">Asesores reales</div>
-    <div class="card">Opciones 0km y usados</div>
-    <div class="card">Planes flexibles</div>
-    <div class="card">Atención inmediata</div>
-  </div>
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn-primary">Quiero saber si califico</a>
+          <a href="#contacto" class="btn-secondary">Hablar con un asesor</a>
+        </div>
+      </div>
 
-  <h2 id="marcas" style="margin-top:60px;">Elegí tu marca</h2>
-  <div class="grid">
-    <div class="card"><a class="btn secondary" href="fiat.html">Fiat</a></div>
-    <div class="card"><a class="btn secondary" href="citroen.html">Citroën</a></div>
-    <div class="card"><a class="btn secondary" href="peugeot.html">Peugeot</a></div>
-    <div class="card"><a class="btn secondary" href="jeep.html">Jeep</a></div>
-  </div>
-</div>
+      <div class="hero-image">
+        <!-- imagen opcional -->
+      </div>
+    </div>
+  </section>
 
-<footer>
-  © Tu Auto Ya – Todos los derechos reservados
-</footer>
+  <!-- COMO FUNCIONA -->
+  <section id="como-funciona" class="steps">
+    <div class="container">
+      <h2>Cómo funciona</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>1. Contanos qué buscás</h3>
+          <p>Nuevo, usado, plan o entrega inmediata.</p>
+        </div>
+
+        <div class="card">
+          <h3>2. Evaluamos tu perfil</h3>
+          <p>Te damos una respuesta clara y realista.</p>
+        </div>
+
+        <div class="card">
+          <h3>3. Te acompañamos</h3>
+          <p>Desde el inicio hasta la entrega del vehículo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONFIANZA -->
+  <section class="trust">
+    <div class="container trust-grid">
+      <div>✔ Acompañamiento real</div>
+      <div>✔ Multimarca</div>
+      <div>✔ Sin letra chica</div>
+      <div>✔ Atención personalizada</div>
+    </div>
+  </section>
+
+  <!-- OPCIONES -->
+  <section id="opciones" class="options">
+    <div class="container">
+      <h2>Explorá tus opciones</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Autos nuevos</h3>
+          <p>Modelos 0km disponibles.</p>
+        </div>
+        <div class="card">
+          <h3>Usados seleccionados</h3>
+          <p>Revisados y listos para entregar.</p>
+        </div>
+        <div class="card">
+          <h3>Planes a medida</h3>
+          <p>Adaptados a tu situación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="contacto" class="cta">
+    <div class="container">
+      <h2>¿Damos el primer paso?</h2>
+      <p>Un asesor te acompaña sin compromiso.</p>
+      <a href="#" class="btn-primary">Contactar ahora</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 TuAutoYa · Todos los derechos reservados</p>
+    </div>
+  </footer>
 
 </body>
 </html>
